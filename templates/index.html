@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1 class="logo">GYM TEMPLE</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{{'home'}}">Home</a></li>
+                <li><a href="{{'home'}}">About</a></li>
+                <li><a href="{{'home'}}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Website</h1>
+            <p>Explore our services and offerings</p>
+            <a href="#" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="cards">
+        <div class="card">
+            <img src="{{url_for('static',filename='images/card1.jpg')}}" alt="Card Image 1">
+            <h3 style="margin-bottom: 40px; font-size: 50px;">Weight training</h3>
+            <p>Weight training is a form of strength training that involves lifting weights to build muscle mass,
+                increase strength, and improve overall fitness. It targets specific muscle groups and helps enhance bone
+                density, metabolism, and endurance. Consistent weight training can lead to improved posture, greater
+                functional strength, and a more sculpted physique.</p>
+        </div>
+        <div class="card">
+            <img src="{{url_for('static',filename='images/card2.jpg')}}" alt="Card Image 2">
+            <h3 style="margin-bottom: 40px; font-size: 50px;">Cardio</h3>
+            <p>Cardio, short for cardiovascular exercise, includes activities like running, cycling, and swimming that
+                get your heart rate up and improve your overall cardiovascular health. Regular cardio helps increase
+                stamina, burns fat, and reduces the risk of heart disease. It's also effective for weight management,
+                reducing stress, and boosting energy levels.</p>
+        </div>
+        <div class="card">
+            <img src="{{url_for('static',filename='images/card3.jpg')}}" alt="Card Image 3">
+            <h3 style="margin-bottom: 40px; font-size: 50px;">Calisthenics</h3>
+            <p>Calisthenics is a form of bodyweight exercise that uses minimal equipment and focuses on mastering
+                movements like push-ups, squats, and pull-ups. It's great for building functional strength, improving
+                flexibility, and enhancing body control. Calisthenics can be done anywhere and is ideal for beginners
+                and advanced athletes looking to improve mobility and strength. </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h1 class="logo">GYM TEMPLE</h1>
+            </div>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Youtube</a>
+            </div>
+        </div>
+        <p>&copy; 2024 Simple Static Website | All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>
